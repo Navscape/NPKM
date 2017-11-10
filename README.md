@@ -4,8 +4,9 @@
 NPKM is a tool to generate product keys (serial keys) and it has been designed to be used within the scope of Navscape. This tool it can be used by other companies, or individual programmers who need a tool to generate random keys.
 
 ### Key format:
-NPKM uses the same serial key format used by Windows, as in the sample below:
+NPKM uses the same serial key format used by Windows, as in the sample below.
 
+Keys generated using NPKM:
 - TV5SN-XGY9V-5J2GA-NRXCE-8ACTX
 - F6BZF-FY6YD-43QEN-HFAF7-9N9TM
 - BG3LQ-LSC1K-WQ8VJ-PNNFD-LPUAT
