@@ -60,9 +60,9 @@ namespace npkm.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap license {
+        internal static System.Drawing.Bitmap licenseprg {
             get {
-                object obj = ResourceManager.GetObject("license", resourceCulture);
+                object obj = ResourceManager.GetObject("licenseprg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
