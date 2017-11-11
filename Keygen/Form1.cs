@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,13 @@ namespace Keygen
             string rand3 = RandomString(5);
             string rand4 = RandomString(5);
             string rand5 = RandomString(5);
-            textBox1.Text = rand1 + "-" + rand2 + "-" + rand3 + "-" + rand4 + "-" + rand5;
+            string KeyGen = rand1 + "-" + rand2 + "-" + rand3 + "-" + rand4 + "-" + rand5;
+            comboBox1.Items.Add(KeyGen);
+            comboBox1.Text = KeyGen;
+            StreamWriter sw = File.AppendText("Keys.txt");
+        	sw.WriteLine(comboBox1.Text);
+	        sw.Close();
+            sw.Dispose();
 
         }
         private static Random random = new Random((int)DateTime.Now.Ticks);
