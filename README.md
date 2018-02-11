@@ -13,4 +13,4 @@ Keys generated using NPKM:
 - HPDSI-TH4DW-XHGHD-6FA9I-CY9YY
 
 ### Warning
-The purpose of this tool is to only generate random keys that can be used by developers, that is, it was not designed for circumventing some existing software. And even if someone tries to use the keys with other intentions, the chances of working on some other product that has not been programmed to use them, is practically impossible. Be warned!
+The purpose of this tool is to only generate random keys that can be used by developers, that is, it was not designed for circumventing some existing software. And even if someone tries to use the keys with other intentions, the chances of working on some other product that has not been programmed to use them, is practically impossible.
